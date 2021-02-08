@@ -222,6 +222,10 @@ else()
   install(FILES resources/icons/grsim.svg DESTINATION share/icons/hicolor/scalable/apps)
 endif()
 
+option(BUILD_CLIENTS "Choose this option if you want to build the example Qt client." ON)
+if(BUILD_CLIENTS)
+    add_subdirectory(client)
+endif()
 
 file(COPY README.md LICENSE.md DESTINATION ${CMAKE_BINARY_DIR})
 file(RENAME ${CMAKE_BINARY_DIR}/README.md ${CMAKE_BINARY_DIR}/README.txt)
