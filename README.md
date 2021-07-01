@@ -46,3 +46,9 @@ Sending data to the simulator is also possible using Google Protobuf. Sample cli
 
 Qt [example project](https://github.com/robocin/ssl-client) to receive and send data to the simulator.
 
+Citing
+------
+
+If you use FIRASim in your research, please cite [the following paper](http://link.springer.com/chapter/10.1007/978-3-642-32060-6_38):
+
+> Monajjemi, Valiallah (Mani), Ali Koochakzadeh, and Saeed Shiry Ghidary. "grSim – RoboCup Small Size Robot Soccer Simulator." In Robot Soccer World Cup, pp. 450-460. Springer Berlin Heidelberg, 2011.
